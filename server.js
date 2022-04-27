@@ -28,7 +28,7 @@ db.mongoose
     useCreateIndex: true,
   })
   .then(() => {
-    console.log("Successfully connect to the database.");
+    console.log("Successfully connected to the database.");
     initial();
   })
   .catch((err) => {

@@ -5,7 +5,7 @@ const User = db.user;
 const Role = db.role;
 
 var jwt = require("jsonwebtoken");
-var bcrypt = require("bcryptjs");
+var bcrypt = require("bcrypt");
 
 exports.signup = (req, res) => {
   const token = jwt.sign({ email: req.body.email }, config.secret);
