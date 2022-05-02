@@ -4,14 +4,15 @@
   "description": "Node.js + MongoDB: JWT Authentication & Authorization",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [
     "node.js",
     "express",
     "jwt",
     "authentication",
-    "mongodb"
+    "mongodb",
+    "nodemailer"
   ],
   "author": "bezkoder",
   "license": "ISC",
@@ -24,5 +25,8 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.9.1",
     "nodemailer": "^6.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
   }
 }
