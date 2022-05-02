@@ -4,7 +4,7 @@
 
 ## Create a .env file from root directory
 
-    npm start
+    Create environment variables as described in .env.sample file
 
 ## Run the app
 
