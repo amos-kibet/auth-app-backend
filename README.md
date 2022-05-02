@@ -10,7 +10,7 @@
 
     npm start
 
-## Get list of Things
+## Testing API Base Endpoint
 
 ### Request
 
