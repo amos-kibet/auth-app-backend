@@ -91,7 +91,7 @@
 
 ### Response
 
-#### To Edit once Nodemailer is able to send confirmation code
+#### TODO: Edit once Nodemailer is able to send confirmation code
 
     HTTP/1.1 401 Unauthorized
     X-Powered-By: Express
@@ -117,7 +117,7 @@
 
 ### Response
 
-#### To Edit once Nodemailer is able to send confirmation code
+#### TODO: Edit once Nodemailer is able to send confirmation code
 
     HTTP/1.1 200 OK
     X-Powered-By: Express
